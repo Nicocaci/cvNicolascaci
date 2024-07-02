@@ -24,7 +24,7 @@ export default function Proyectos() {
                     <div className="card bg-dark cardproyectos text-white">
                         <img className='img-fluid img2-hover' src="../../indexJs.jpg" alt="js" />
                         <h4 className='center mt-3'>ProductosEr</h4>
-                        <p className='center mt-3 pe-3 ps-3'>ProductosEr es una aplicación web de e-commerce diseñada para la venta de productos de limpieza, incluyendo escobas, pinceles y otros artículos relacionados. Este proyecto final de JavaScript se enfoca en proporcionar una experiencia de usuario intuitiva y eficiente, permitiendo a los usuarios navegar, buscar y simular comprar productos con facilidad.</p>
+                        <p className='center mt-3 pe-3 ps-3'>ProductosEr es una aplicación web de e-commerce diseñada para la venta de productos de limpieza, incluyendo escobas, pinceles y otros artículos relacionados. Este proyecto final de JavaScript se enfoca en proporcionar una experiencia de usuario intuitiva y eficiente, permitiendo a los usuarios navegar, buscar y simular comprar productos con facilidad. Debes registrarte para el inicio de sesion.</p>
                         <div className='d-flex center '>
                             <div className='center me-2'>
                                 <a target='_blank' href="https://productoser.netlify.app"><button className='btn btn-outline-light mt-4'>Ver Proyecto</button></a>
