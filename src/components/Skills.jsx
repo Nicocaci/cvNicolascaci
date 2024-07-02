@@ -2,7 +2,7 @@ import './Skills.css'
 export default function Skills() {
     return (
         <section className="seccionSkills text-white ps-5 pe-5 pt-5">
-            <h3 className="titulos">Skills</h3>
+            <h3 className="titulos mb-5">Skills</h3>
             <div className="row">
                 <div className="col">
                     <div className="card bg-dark card-skills  center text-white   ">

@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './Contacto.css'
 
 export default function Contacto() {
     const [infoContacto, setInfoContacto] = useState({
@@ -20,8 +21,8 @@ export default function Contacto() {
     }
 
     return (
-        <section id="contacto" className="text-white ps-5 pe-5 pt-5">
-            <h3 className="titulos center ">Contacto</h3>
+        <section id="contacto" className="seccionContacto text-white ps-5 pe-5 pt-5">
+            <h3 className="titulos center mb-5 ">Contacto</h3>
             <div className="center">
                 <form onSubmit={(e) => Cargar(e)}  style={{width:"60%"}}>
                     <div class="mb-3  ">

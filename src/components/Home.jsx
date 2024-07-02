@@ -41,7 +41,7 @@ export default function Home() {
                 <div className='bg-dark bg-opacity-75 nombre-contenedor m-auto '>
                     <h1 className="text-white center nombre">Nicolás Caci</h1>
                     <h2 className="text-white center titulo">Desarollador Frontend React</h2>
-                    <h3 className='text-white center telefono '>nicko.caci@gmail.com/1173660802</h3>
+                    <h3 className='text-white center telefono '>nicko.caci@gmail.com   -   1173660802</h3>
                     <div className='d-flex center'>
                         <div className='me-3'>
                             <a target='_blank' href="https://www.linkedin.com/in/nicolas-caci-b5b069249/"><img src="https://skillicons.dev/icons?i=linkedin" alt="linkedin" /></a>
