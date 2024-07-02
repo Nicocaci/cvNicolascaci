@@ -38,3 +38,27 @@ margin-top: 5%;
     margin-bottom: 5%;
     margin-top: 2%;
 }
+
+@media (max-width:700px){
+    .nombre{
+        font-size: 50px;
+        margin-top: 25%;
+        padding-top: 12%;
+    }
+    .nombre-contenedor{
+        width: 80%;
+    }
+}
+
+@media (max-width:480px){
+    .nombre{
+        font-size: 40px;
+        padding-top: 15%;
+    }
+    .nombre-contenedor{
+        width: 100%;
+    }
+    .titulo{
+        font-size: 20px ;
+    }
+}

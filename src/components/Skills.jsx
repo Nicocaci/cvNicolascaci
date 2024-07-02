@@ -3,9 +3,9 @@ export default function Skills() {
     return (
         <section className="seccionSkills text-white ps-5 pe-5 pt-5">
             <h3 className="titulos mb-5">Skills</h3>
-            <div className="row">
-                <div className="col">
-                    <div className="card bg-dark card-skills  center text-white   ">
+            <div className="row iconoSkills">
+                <div className="col-sm-4 center">
+                    <div className="card bg-dark card-skills  center text-white cardSkills   ">
                         <img className="img-hover" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                             height="40"
                             alt="react logo"
@@ -13,8 +13,8 @@ export default function Skills() {
                         <p className="mt-2">React</p>
                     </div>
                 </div>
-                <div className="col">
-                    <div className=" card bg-dark card-skills  center text-white">
+                <div className="col-sm-4 center">
+                    <div className=" card bg-dark card-skills  center text-white cardSkills">
                         <img className="img-hover"
                             src="https://cdn.simpleicons.org/javascript/F7DF1E"
                             height="40"
@@ -23,8 +23,8 @@ export default function Skills() {
                         <p className="mt-2">JavaScript</p>
                     </div>
                 </div>
-                <div className="col">
-                    <div className="card bg-dark card-skills  center text-white">
+                <div className="col-sm-4 center">
+                    <div className="card bg-dark card-skills  center text-white cardSkills">
                         <img className="img-hover"
                             src="https://skillicons.dev/icons?i=html"
                             height="40"
@@ -33,8 +33,8 @@ export default function Skills() {
                         <p className="mt-2">Html</p>
                     </div>
                 </div>
-                <div className="col">
-                    <div className="card bg-dark card-skills  center text-white">
+                <div className="col-sm-4 center">
+                    <div className="card bg-dark card-skills  center text-white cardSkills">
                         <img className="img-hover"
                             src="https://skillicons.dev/icons?i=bootstrap"
                             alt="bootstrap"
@@ -43,8 +43,8 @@ export default function Skills() {
                         <p className="mt-2">Bootstrap</p>
                     </div>
                 </div>
-                <div className="col">
-                    <div className=" card bg-dark card-skills center text-white">
+                <div className="col-sm-4 center">
+                    <div className=" card bg-dark card-skills center text-white cardSkills">
                         <img className="img-hover"
 
                             src="https://skillicons.dev/icons?i=tailwind"
@@ -55,8 +55,8 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="col">
-                    <div className=" card bg-dark card-skills  center text-white">
+                <div className="col-sm-4 center">
+                    <div className=" card bg-dark card-skills  center text-white cardSkills">
                         <img className="img-hover"
                             src="https://cdn.simpleicons.org/css3/1572B6"
                             height="40"
@@ -67,8 +67,8 @@ export default function Skills() {
                 </div>
             </div>
             <div className="row">
-                <div className="col">
-                    <div className="card bg-dark card-skills  center text-white">
+                <div className="col-sm-4 center">
+                    <div className="card bg-dark card-skills  center text-white cardSkills">
                         <img className="img-hover"
                             src="https://skillicons.dev/icons?i=sass"
                             height="40"
@@ -78,8 +78,8 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="col">
-                    <div className="card bg-dark card-skills  center text-white" >
+                <div className="col-sm-4 center">
+                    <div className="card bg-dark card-skills  center text-white cardSkills" >
                         <img className="img-hover"
                             src="https://skillicons.dev/icons?i=nodejs"
                             height="40"
@@ -89,8 +89,8 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="col">
-                    <div className=" card bg-dark card-skills  center text-white" >
+                <div className="col-sm-4 center">
+                    <div className=" card bg-dark card-skills  center text-white cardSkills" >
                         <img className="img-hover"
                             src="https://skillicons.dev/icons?i=firebase"
                             height="40"
@@ -100,8 +100,8 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="col">
-                    <div className=" card bg-dark card-skills  center text-white" >
+                <div className="col-sm-4 center">
+                    <div className=" card bg-dark card-skills  center text-white cardSkills" >
                         <img className="img-hover"
                             src="https://skillicons.dev/icons?i=vite"
                             height="40"
@@ -110,8 +110,8 @@ export default function Skills() {
                         <p className="mt-2">Vite</p>
                     </div>
                 </div>
-                <div className="col">
-                    <div className=" card bg-dark card-skills  center text-white">
+                <div className="col-sm-4 center">
+                    <div className=" card bg-dark card-skills  center text-white cardSkills">
                         <img className="img-hover"
 
                             src="https://skillicons.dev/icons?i=powershell"
@@ -121,8 +121,8 @@ export default function Skills() {
                         <p className="mt-2">Powershell</p>
                     </div>
                 </div>
-                <div className="col">
-                    <div className=" card bg-dark card-skills  center text-white">
+                <div className="col-sm-4 center">
+                    <div className=" card bg-dark card-skills  center text-white cardSkills">
                         <img className="img-hover"
 
                             src="https://skillicons.dev/icons?i=github"

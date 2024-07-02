@@ -7,7 +7,7 @@ export default function Proyectos() {
             <div className="row">
                 <div className="col">
                     <div className="card  bg-dark cardproyectos text-white">
-                        <img className="img-fluid img2-hover" src="../../homeReact.jpg" alt="reactProyecto" />
+                        <img className="img-fluid img2-hover img1" src="../../homeReact.jpg" alt="reactProyecto" />
                         <h4 className="center mt-3">Virtual Hockey Store</h4>
                         <p className="center mt-3 pe-3 ps-3">VirtualHockeyStore es una aplicación ecommerce responsive desarrollada con React para la venta de productos relacionados con el hockey. La tienda incluye características como búsqueda de productos, filtrado, carrito de compras y procesamiento de pagos.</p>
                         <div className='d-flex center '>
@@ -22,7 +22,7 @@ export default function Proyectos() {
                 </div>
                 <div className="col">
                     <div className="card bg-dark cardproyectos text-white">
-                        <img className='img-fluid img2-hover' src="../../indexJs.jpg" alt="js" />
+                        <img className='img-fluid img2-hover img2' src="../../indexJs.jpg" alt="js" />
                         <h4 className='center mt-3'>ProductosEr</h4>
                         <p className='center mt-3 pe-3 ps-3'>ProductosEr es una aplicación web de e-commerce diseñada para la venta de productos de limpieza, incluyendo escobas, pinceles y otros artículos relacionados. Este proyecto final de JavaScript se enfoca en proporcionar una experiencia de usuario intuitiva y eficiente, permitiendo a los usuarios navegar, buscar y simular comprar productos con facilidad. Debes registrarte para el inicio de sesion.</p>
                         <div className='d-flex center '>
@@ -38,7 +38,7 @@ export default function Proyectos() {
                 </div>
                 <div className="col">
                     <div className="card bg-dark cardproyectos text-white">
-                        <img className='img-fluid img2-hover' src="../../homeHtml.jpg" alt="html" />
+                        <img className='img-fluid img2-hover img3' src="../../homeHtml.jpg" alt="html" />
                         <h4 className='center mt-4'>Quilmes Atletico Club</h4>
                         <p className='center mt-4 pe-3 ps-3'>Quilmes Atletico Club es un proyecto responisve basico, el cual cuenta con una barra de navegacion, diferentes pages, las cual se pueden ir navegando, segun gustes. Cuenta con un inicio, galeria, contacto y ubicacion.</p>
                         <div className='d-flex center '>
