@@ -22,7 +22,7 @@ export default function Proyectos() {
                 </div>
                 <div className="col">
                     <div className="card bg-dark cardproyectos text-white">
-                        <img className='img-fluid img2-hover' src="../../public/indexJs.jpg" alt="js" />
+                        <img className='img-fluid img2-hover' src="../../indexJs.jpg" alt="js" />
                         <h4 className='center mt-3'>ProductosEr</h4>
                         <p className='center mt-3'>ProductosEr es una aplicación web de e-commerce diseñada para la venta de productos de limpieza, incluyendo escobas, pinceles y otros artículos relacionados. Este proyecto final de JavaScript se enfoca en proporcionar una experiencia de usuario intuitiva y eficiente, permitiendo a los usuarios navegar, buscar y simular comprar productos con facilidad.</p>
                         <div className='d-flex center '>
@@ -38,7 +38,7 @@ export default function Proyectos() {
                 </div>
                 <div className="col">
                     <div className="card bg-dark cardproyectos text-white">
-                        <img className='img-fluid img2-hover' src="../../public/homeHtml.jpg" alt="html" />
+                        <img className='img-fluid img2-hover' src="../../homeHtml.jpg" alt="html" />
                         <h4 className='center mt-4'>Quilmes Atletico Club</h4>
                         <p className='center mt-4'>Quilmes Atletico Club es un proyecto responisve basico, el cual cuenta con una barra de navegacion, diferentes pages, las cual se pueden ir navegando, segun gustes. Cuenta con un inicio, galeria, contacto y ubicacion.</p>
                         <div className='d-flex center '>

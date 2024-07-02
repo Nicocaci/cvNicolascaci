@@ -10,7 +10,7 @@ main {
     font-family: cursive;
 }
 .fondo-home{
-    background-image:url('../../public/fondo.jpg');
+    background-image:url('../../fondo.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

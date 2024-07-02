@@ -8,17 +8,17 @@ export default function Experiencia(){
             <div className="card bg-dark col me-3">
             <h4 className="text-white center mt-3">DESAROLLO WEB(18/10/23 AL 03/01/24)</h4>
             <p className='text-white center'>NOTA:9</p>
-            <img className="img-certificados"  src="../../public/certificadoHtml.jpg" alt="html" />
+            <img className="img-certificados"  src="../../certificadoHtml.jpg" alt="html" />
             </div>
             <div className="card bg-dark col me-3">
             <h4 className="text-white center mt-3">JAVASCRIPT(22/01/24 AL 25/03/24)</h4>
             <p className='text-white center'>NOTA:10</p>
-            <img className="img-certificados"  src="../../public/certificadoJs.jpg" alt="js" />
+            <img className="img-certificados"  src="../../certificadoJs.jpg" alt="js" />
             </div>
             <div className="card bg-dark col">
             <h4 className="text-white center mt-3">REACT JS(16/04/24 AL 04/06/24)</h4>
             <p className='text-white center'>NOTA:10</p>
-            <img className="img-certificados"  src="../../public/certificadoReact.png" alt="react" />
+            <img className="img-certificados"  src="../../certificadoReact.png" alt="react" />
             </div> 
         </div>
         </section>
