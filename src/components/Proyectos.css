@@ -1,0 +1,18 @@
+.cardproyectos{
+    height: 580px;
+}
+
+.img-hover{
+    transition: 0.5s all ease-in-out;
+}
+.img-hover:hover{
+    transform: scale(1.5);
+
+}
+.img2-hover{
+    transition: 0.5s all ease-in-out;
+}
+.img2-hover:hover{
+    transform: scale(1.2);
+    max-width: 100%;
+}

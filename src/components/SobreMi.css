@@ -1,0 +1,24 @@
+.seccionSobreMiContainer{
+    padding-top: 120vh;
+
+}
+
+.textoSobreMi{
+    font-family: "Fira Sans", sans-serif;
+    font-size: larger;
+    transition: transform 0.3s ease;
+    transform-origin:bottom left;
+}
+
+.textoSobreMi:hover{
+    color: yellow;
+    transform: scale(1.1);
+}
+
+.sobreMiT{
+    width: 80%;
+}
+
+.titulos{
+    font-family: "Playfair Display", serif;
+}

@@ -1,0 +1,9 @@
+.nav{
+    text-decoration: none;
+}
+
+.header{
+    background-color: black;
+    height: 10vh;
+    border-bottom: 3px solid white;
+}

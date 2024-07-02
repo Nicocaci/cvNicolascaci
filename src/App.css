@@ -1,0 +1,18 @@
+  
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  background-color:black ;
+  padding-top: 10vh;
+}
+
+.card-skills{
+  height: 130px;
+  width: 95%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}

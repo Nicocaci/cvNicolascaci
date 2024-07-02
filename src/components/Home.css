@@ -1,0 +1,39 @@
+.nombre{
+    font-size: 100px;
+    margin-top: 30%;
+
+}
+main {
+    background-color: black;
+}
+.titulo{
+    font-family: cursive;
+}
+.fondo-home{
+    background-image:url('../../public/fondo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    background-color: black;
+
+}
+.nombre-contenedor{
+    height: 300px;
+    width: 700px;
+
+}
+
+.botonCv{
+margin-top: 5%;
+
+}
+
+.telefono{
+    font-family: cursive;
+    font-size: large;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
