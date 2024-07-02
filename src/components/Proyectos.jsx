@@ -7,7 +7,7 @@ export default function Proyectos() {
             <div className="row">
                 <div className="col">
                     <div className="card  bg-dark cardproyectos text-white">
-                        <img className="img-fluid img2-hover" src="../../public/homeReact.jpg" alt="reactProyecto" />
+                        <img className="img-fluid img2-hover" src="../../homeReact.jpg" alt="reactProyecto" />
                         <h4 className="center mt-3">Virtual Hockey Store</h4>
                         <p className="center mt-3">VirtualHockeyStore es una aplicación ecommerce responsive desarrollada con React para la venta de productos relacionados con el hockey. La tienda incluye características como búsqueda de productos, filtrado, carrito de compras y procesamiento de pagos.</p>
                         <div className='d-flex center '>
