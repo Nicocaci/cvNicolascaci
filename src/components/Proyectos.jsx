@@ -2,7 +2,7 @@ import './Proyectos.css'
 
 export default function Proyectos() {
     return (
-        <section id='proyectos' className="seccionProyectos text-white ps-5 pe-5">
+        <section id='proyectos' className="seccionProyectos text-white ps-5 pe-5 pt-5">
             <h3 className="titulos mb-5">Mis Proyectos</h3>
             <div className="row">
                 <div className="col">
