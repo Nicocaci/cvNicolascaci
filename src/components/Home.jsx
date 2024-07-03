@@ -7,7 +7,7 @@ import Experiencia from './Experiencia'
 import Contacto from './Contacto'
 import { Document, Packer, Paragraph, TextRun } from 'docx'
 import { saveAs } from 'file-saver'
-import cv from '../../public/NicolasCaciCv.docx'
+import Cv from './nicolasCaciCv.pdf'
  
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
         });
 
         const blob = await Packer.toBlob(doc);
-        saveAs(blob,cv);
+        saveAs(blob,Cv);
     };
     return (
         <main >
@@ -51,10 +51,13 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className='botonCv center'><button onClick={generateDocument} style={{height:'50px'}} className='btn btn-dark text-white'>Descargar Cv</button></div>
+
+                <div className='center botonCv '>
+                    <a className='btn btn-outline-light bg-dark text-white' href={Cv} download>Descargar Cv</a>
+                </div>
             </section >
 
-            <SobreMi />
+            <SobreMi /> 
             <Skills></Skills>
             <Proyectos />
             <Experiencia></Experiencia>
