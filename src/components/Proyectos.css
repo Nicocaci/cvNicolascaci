@@ -21,14 +21,29 @@
     margin-top: 10%;
 }
 
-.img1{
-    z-index: 100;
-}
-.img2{
-    z-index: 100;
-}
-
-.img3{
-    z-index: 100;
+@media (max-width:1200px){
+    .textoProyectos{
+        display: none;
+    }
+    .cardproyectos{
+        height: 350px;
+    }
 }
 
+
+@media (max-width:950px){
+    .contenedorProyectos{
+        display: block;
+    }
+    .cardContenedora{
+        margin-top: 200px;
+    }
+    .cardproyectos{
+        height: 580px;
+        margin-top: 200px;
+    }
+    .titulosProyectos{
+        padding-top: 40px;
+    }
+
+}
