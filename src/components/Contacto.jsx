@@ -74,7 +74,7 @@ export default function Contacto() {
             {
                     sumbit ?
                         <section className="center mb-3">
-                        <section className="center card bg-dark text-white w-25">
+                        <section className="center card textBox bg-dark text-white w-25">
                             <div className="mt-3 mb-3">
                             <div  className="d-flex me-3">
                                 <h5>Nombre: </h5>

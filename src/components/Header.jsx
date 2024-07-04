@@ -7,7 +7,7 @@ export default function Header() {
         <div className="center">
           <img width="60" height="60" src="https://img.icons8.com/plasticine/100/developer.png" alt="developer" />
         </div>
-        <div className=" d-none d-md-block">
+        <div className="  navBarHeader">
           <ul className="center d-flex">
             <a style={{ textDecoration: "none" }} href="#">
               <li className=" text-white nav m-3">INICIO</li>
@@ -26,7 +26,7 @@ export default function Header() {
             </a>
           </ul>
         </div>
-        <div class="d-block d-lg-none text-white">
+        <div class="d-block d-lg-none text-white botonHamburgesa">
           <nav class="navbar">
             <div class="container-fluid">
               <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas"

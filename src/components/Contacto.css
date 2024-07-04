@@ -1,3 +1,11 @@
 .seccionContacto{
     margin-top: 10%;
 }
+
+
+@media (max-width:1024px){
+    .textBox{
+        width: 100% !important;
+    }
+
+}

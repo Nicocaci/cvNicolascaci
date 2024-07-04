@@ -26,24 +26,54 @@
         display: none;
     }
     .cardproyectos{
-        height: 350px;
+        height: 700px;
+        margin-top: 200px;
     }
-}
-
-
-@media (max-width:950px){
     .contenedorProyectos{
         display: block;
     }
     .cardContenedora{
         margin-top: 200px;
     }
+    .titulosProyectos{
+       margin-top: 70px !important;
+    }
+}
+
+
+@media (max-width:950px){
+    /* .contenedorProyectos{
+        display: block;
+    } */
+    /* .cardContenedora{
+        margin-top: 200px;
+    } */
     .cardproyectos{
         height: 580px;
         margin-top: 200px;
     }
-    .titulosProyectos{
-        padding-top: 40px;
-    }
 
+
+}
+
+@media (max-width:750px){
+    .cardproyectos{
+        height:500px;
+    }
+    .titulosProyectos{
+        padding-top: 0%;
+    }
+}
+
+@media (max-width:450px){
+    .cardContenedora{
+        height:600px;
+    }
+}
+
+@media (max-width:425px){
+    .cardproyectos{
+        height: 380px;
+        margin-top:10%;
+    }
 }

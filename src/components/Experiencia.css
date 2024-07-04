@@ -6,3 +6,31 @@
 .seccionExperiencia{
     margin-top: 10%;
 }
+
+.img-frontend{
+    width: 100%;
+}
+
+.certificado{
+    margin-top: 10%;
+    width: 60%;
+    height: 100%;
+}
+
+
+@media(max-width:1024px){
+    .cardExperiencia{    
+        display: block;
+        margin-top: 10%;
+        width: 100%;
+        padding: 0%;
+    }
+    .img-certificados{
+        height: 100%;
+    }
+    .certificado{
+        width: 100%;
+        padding: 0%;
+        display: block;
+    }
+}

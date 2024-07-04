@@ -11,4 +11,9 @@
     z-index: 999;
 }
 
+@media (max-width:980px){
+    .navBarHeader{
+        display: none ; 
+    }
+}
 
