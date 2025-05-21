@@ -1,7 +1,6 @@
 .seccionSobreMiContainer{
     margin-top: 10%;
     padding-top: 5%;
-
 }
 
 .textoSobreMi{
@@ -17,9 +16,18 @@
 }
 
 .sobreMiT{
-    width: 80%;
+    width: 50%;
 }
 
 .titulos{
     font-family: "Playfair Display", serif;
+}
+
+@media (max-width:400px) {
+    .sobreMiT{
+        width: 100%;
+    }
+    .textoSobreMi{
+        font-size: small;
+    }
 }

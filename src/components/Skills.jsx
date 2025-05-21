@@ -2,7 +2,7 @@ import './Skills.css'
 export default function Skills() {
     return (
         <section className="seccionSkills text-white ps-5 pe-5 pt-5">
-            <h3 className="titulos mb-5">Skills</h3>
+            <h3 className="titulos mb-5 ">Skills</h3>
             <div className="row iconoSkills">
                 <div className="col-sm-4 center">
                     <div className="card bg-dark card-skills  center text-white cardSkills   ">
@@ -70,11 +70,11 @@ export default function Skills() {
                 <div className="col-sm-4 center">
                     <div className="card bg-dark card-skills  center text-white cardSkills">
                         <img className="img-hover"
-                            src="https://skillicons.dev/icons?i=sass"
+                            src="https://skillicons.dev/icons?i=mongodb"
                             height="40"
                             alt="sass"
                         />
-                        <p className="mt-2">Sass</p>
+                        <p className="mt-2">MongoDB</p>
                     </div>
                 </div>
 
@@ -92,11 +92,11 @@ export default function Skills() {
                 <div className="col-sm-4 center">
                     <div className=" card bg-dark card-skills  center text-white cardSkills" >
                         <img className="img-hover"
-                            src="https://skillicons.dev/icons?i=firebase"
+                            src="https://skillicons.dev/icons?i=docker"
                             height="40"
                             alt="firebase logo"
                         />
-                        <p className="mt-2">FireBase</p>
+                        <p className="mt-2">Docker</p>
                     </div>
                 </div>
 
