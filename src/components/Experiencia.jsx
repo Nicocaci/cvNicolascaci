@@ -6,7 +6,7 @@ export default function Experiencia() {
             <h3 className="titulos mt-5">Experiencia</h3>
             <div className="seccionExperiencia">
                 <div className="cardE">
-                    <h4 className="">DESAROLLO WEB</h4>
+                    <h4 className="">DESARROLLO WEB</h4>
                     <p className=''>Nota: 9 - (18/10/23 AL 03/01/24)</p>
                     <img className="img-certificados" src="../../certificadoHtml.jpg" alt="html" />
                 </div>
@@ -21,12 +21,12 @@ export default function Experiencia() {
                     <img className="img-certificados" src="../../certificadoReact.png" alt="react" />
                 </div>
                 <div className="cardE">
-                    <h4 className="">Desarollador Frontend React</h4>
+                    <h4 className="">Desarrollador Frontend React</h4>
                     <p className=''>Nota: 10 - (16/04/24 AL 04/06/24)</p>
                     <img className="img-frontend" src="../../certificadoCarrera.png" alt="frontend" />
                 </div>
                 <div className='cardE'>
-                    <h4>Desarollador FullStack</h4>
+                    <h4>Desarrollador FullStack</h4>
                     <p className=''>Nota: 10 - (18/10/23 AL 17/12/24)</p>
                     <img className="img-frontend" src="../../certificado-carrera.png" alt="cf" />
                 </div>

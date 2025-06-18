@@ -24,7 +24,7 @@ export default function Proyectos() {
                     <div className="card bg-dark cardproyectos text-white">
                         <img className='img-fluid img2-hover img2' src="../../dg.png" alt="js" />
                         <h4 className='center mt-5 titulosProyectos'>Digital Market</h4>
-                        <p className='center mt-5 pe-3 ps-3 textoProyectos'>Digital Market, es una distribuidora online, la cual esta desarollada para que el usuario desde el interfaz de la app pueda manejar los productos y los pedidos de la manera que guste. </p>
+                        <p className='center mt-5 pe-3 ps-3 textoProyectos'>Digital Market, es una distribuidora online, la cual esta desarrollada para que el usuario desde el interfaz de la app pueda manejar los productos y los pedidos de la manera que guste. </p>
                         <div className='d-flex center '>
                             <div className='center me-2'>
                                 <a target='_blank' href="https://digitalmarket-back-production.up.railway.app/"><button className='btn btn-outline-light mt-4'>Ver Proyecto</button></a>
