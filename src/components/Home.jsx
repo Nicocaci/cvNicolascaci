@@ -7,7 +7,7 @@ import Experiencia from './Experiencia'
 import Contacto from './Contacto'
 import { Document, Packer, Paragraph, TextRun } from 'docx'
 import { saveAs } from 'file-saver'
-import Cv from './nicolasCaciCv.pdf'
+import Cv from './cvactualizado2025.pdf'
  
 
 export default function Home() {
@@ -40,7 +40,7 @@ export default function Home() {
             <section className="fondo-home ">
                 <div className='bg-dark bg-opacity-75 nombre-contenedor m-auto '>
                     <h1 className="text-white center nombre">Nicolás Caci</h1>
-                    <h2 className="text-white center titulo">Desarollador Frontend React</h2>
+                    <h2 className="text-white center titulo">Desarollador Full-Stack</h2>
                     <h3 className='text-white center telefono '>nicko.caci@gmail.com   -   1173660802</h3>
                     <div className='d-flex center'>
                         <div className='me-3'>

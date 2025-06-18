@@ -1,10 +1,14 @@
 .img-certificados{
-    height: 400px;
     width: 100%;
 }
 
 .seccionExperiencia{
     margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+    margin: auto;
+    gap: 15px;
 }
 
 .img-frontend{
@@ -15,6 +19,10 @@
     margin-top: 10%;
     width: 60%;
     height: 100%;
+}
+.cardE{
+    background-color: grey;
+    margin-bottom: 10%;
 }
 
 
@@ -32,5 +40,12 @@
         width: 100%;
         padding: 0%;
         display: block;
+    }
+}
+@media (max-width:425px){
+    .seccionExperiencia{
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+        gap: 100px;
     }
 }

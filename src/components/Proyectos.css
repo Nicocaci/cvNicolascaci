@@ -1,5 +1,6 @@
 .cardproyectos{
-    height: 580px;
+    width: 60%;
+    height: 100%;
 }
 
 .img-hover{
@@ -22,11 +23,9 @@
 }
 
 @media (max-width:1200px){
-    .textoProyectos{
-        display: none;
-    }
     .cardproyectos{
         height: 700px;
+        width: 100%;
         margin-top: 200px;
     }
     .contenedorProyectos{
@@ -35,9 +34,7 @@
     .cardContenedora{
         margin-top: 200px;
     }
-    .titulosProyectos{
-       margin-top: 70px !important;
-    }
+
 }
 
 
@@ -73,7 +70,7 @@
 
 @media (max-width:425px){
     .cardproyectos{
-        height: 380px;
+        width: 100%;
         margin-top:10%;
     }
 }
